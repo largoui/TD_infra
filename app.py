@@ -8,4 +8,4 @@ app.config["DEBUG"] = True
 def home():
    return "<h1>Annuaire Internet</h1><p>Ce site est le prototype d’une API.</p>"
 
-app.run()
+app.run(port=8000)
